@@ -1,0 +1,147 @@
+.a-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 13px;
+}
+
+.a-box-inner {
+  padding: 20px;
+}
+
+.a-spacing-small {
+  margin: 200;
+}
+
+.a-input-text {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border: 1px solid #c8c3c3;
+  border-radius: 5px;
+}
+
+.need-help-button {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #0079c1;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: xx-small;
+  right: 15cm;
+  color: #0079c1;
+  margin-left: 245px;
+}
+
+.a-divider {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  flex-flow: column-reverse; 
+}
+
+.continue-button {
+  display: inline-block;
+  max-width: 800px;
+  margin: 20px auto 0;
+  background-color: #f0c14b;
+  color: black;
+  padding: 7px 17px;
+  font-size: 18px;
+  text-align: center;
+  border: rgb(102, 123, 145);
+  border-radius: 5px;
+  width: 121%;
+  margin-left:-20px
+}
+
+.a-box {
+  border: 1px solid rgb(228, 228, 228);
+  width: 350px;
+  height: 350px;
+  margin-top: -500px;
+  background-color: #fdf9f9;
+  padding: 20px;
+  box-shadow: 0 2px 60px rgba(80, 17, 17, 0.1);
+}
+
+.new-to-website-button {
+  margin-top: -50px;
+  display: block;
+  
+  width: 360px;
+  height: 30px;
+}
+
+.text {
+  font-size: 14px;
+  word-break: keep-all;
+  margin-top: 20px; 
+ 
+}
+
+p {
+  color: black;
+  position: relative;
+  display: inline-block;
+  margin: 35px 100px;
+  white-space: nowrap;
+  
+}
+
+p:before {
+  content: "__________________";
+  color: rgb(201, 194, 194);
+  position: absolute;
+  top: -5px;
+  left: -130px;
+}
+
+p:after {
+  content: "__________________";
+  color: rgb(201, 194, 194);
+  position: absolute;
+  top: -5px;
+  right: -130px;
+}
+
+.footer {
+  margin-top: -100px;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-links {
+  text-decoration: none;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #0013c1;
+  border-bottom: none;
+  margin-right: 20px;
+}
+ 
+
+
+
+
+
